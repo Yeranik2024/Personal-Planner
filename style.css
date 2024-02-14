@@ -1,0 +1,88 @@
+/* CSS styles for the app */
+body {
+    font-family: 'Arial', sans-serif;              /* Sets the font family for the entire document to Arial or a generic sans-serif font.
+                                                       Resets margin and padding for the body element to zero.   */
+                                                       
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */                                    /* Sets the background color to a shade of blue (#3498db).
+                                                        Text color is white.
+                                                        Text is centered.
+                                                        Adds padding of 1rem (16px) on all sides.
+                                                        */
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Main content styles */                               /* Adds padding of 2rem (32px) to the main content section. */
+main {
+    padding: 2rem;
+}
+
+/* Styles for "My Day" section */           /* Adds a margin at the bottom of the "My Day" section. */
+#myDaySection {
+    margin-bottom: 2rem;
+}
+
+/* Sets the background color to a shade of black (#010e06).
+Text color is white.
+Adds padding of 0.5rem (8px) vertically and 1rem (16px) horizontally.
+Removes the border.
+Sets the cursor to a pointer.*/
+
+button {
+    background-color: #010e06;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+/* Adds a margin at the top of the task list.
+Removes default list styling.
+Removes padding from the list.*/
+
+#taskList {
+    margin-top: 1rem;
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Styles for individual tasks:
+Uses flex display to align items horizontally.
+Aligns items vertically in the center.
+Adds margin at the bottom.*/
+
+.task {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+/* Styles for completed tasks:
+Adds a line-through text decoration.
+Changes the text color to a grayish color (#95a5a6).
+*/
+
+.completed {
+    text-decoration: line-through;
+    color: #95a5a6;
+}
+
+/* Styles for motivational section */
+/* Styles for the motivational section:
+Adds a 1px solid border at the top.
+Adds padding at the top.
+Aligns text in the center.
+*/
+
+#motivationalSection {
+    border-top: 1px solid #bdc3c7;
+    padding-top: 1rem;
+    text-align: center;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>     <!-- This declaration specifies the HTML version (HTML5). -->
+<html lang="en">   <!-- The opening tag for the HTML document, specifying the language as English. -->
+<head>              <!-- Contains metadata about the HTML document, such as character set, viewport settings, and a link to the external stylesheet. -->
+    <meta charset="UTF-8">      <!-- Sets the character encoding to UTF-8. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">      <!-- Configures the viewport for responsive design. -->
+    <link rel="stylesheet" href="style.css">                <!-- Links the HTML file to an external CSS file -->
+    <title>Personal Planner</title>                 <!-- Sets the title of the HTML document.-->
+</head>
+<body>                      <!--  The main content of the HTML document.-->
+
+    <header>                <!-- Contains the app title. -->
+        <h1>Personal Planner</h1>
+    </header>
+
+    <main>               <!-- The main content section of the app. -->
+        <section id="myDaySection">             <!--  Section for "My Day" tasks. -->
+            <button onclick="openMyDay()">My Day</button>           <!-- Button to open the task input modal. -->
+            <ul id="taskList"></ul>                         <!-- Unordered list to display tasks.-->
+        </section>
+
+        <section id="motivationalSection">              <!--  Section for motivational messages. -->
+            <h2>Motivational Messages</h2>                  <!-- Heading for motivational messages. -->
+            <p id="motivationalMessage">Loading...</p>          <!-- Paragraph for displaying motivational messages -->
+        </section>
+    </main>
+
+    <script src="script.js"></script>                   <!-- Links the HTML file to an external JavaScript file -->
+</body>
+</html>
